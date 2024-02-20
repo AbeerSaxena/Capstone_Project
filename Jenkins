@@ -28,14 +28,14 @@ pipeline{
                 sh 'mvn package'
             }
         }
-       stage('run dockerfile'){
+       stage('Run Dockerfile'){
           steps{
                sh 'docker build -t myimg .'
            }
          }
-      stage('port expose'){
+      stage('Port Expose'){
             steps{
-                sh 'docker run -dt -p 8091:8091 --name c00 myimg /bin/bash'
+                sh 'docker run -dt -p 8082:8082 --name health myimg /bin/bash'
             }
         }   
           
