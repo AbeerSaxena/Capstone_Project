@@ -11,7 +11,7 @@ import com.project.staragile.MedicureService;
 @SpringBootTest
 class MedicureApplicationTests {
 
-	@Autowired
+	@Autowired 
 	MedicureService doctorService;
 	
 	@Test
