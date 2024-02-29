@@ -9,7 +9,7 @@ public class MedicureService {
 	@Autowired
 	MedicureRepository doctorRepository;
 	
-	public Doctor registerDoctor(Doctor doctor) {
+	public Doctor registerDoctor(Doctor doctor) { 
 		return doctorRepository.save(doctor);
 		}
 
