@@ -7,7 +7,7 @@ import javax.persistence.Id;
 public class Doctor {
 	
 	@Id
-	private String doctorRegistrationId;
+	private String doctorRegistrationId; 
 	
 	private String doctorName;
 	
