@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MedicureApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MedicureApplication.class, args);
+		SpringApplication.run(MedicureApplication.class, args); 
 	}
 
 }
