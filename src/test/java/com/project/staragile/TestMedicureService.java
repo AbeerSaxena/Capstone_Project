@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class TestMedicureService {
 	
 	@Autowired
-	MedicureService doctorService;
+	MedicureService doctorService; 
 	
 	@Test
 	public void testRegisterDoctor() {
